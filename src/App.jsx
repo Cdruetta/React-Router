@@ -5,6 +5,8 @@ import { Menubar } from 'primereact/menubar';
 import Home from './components/home';
 import Posts from './components/posts/Posts'; 
 import Albums from './components/albums/Albums'; 
+import CreateUser from './components/users/CreateUser';
+
 
 function App() {
   const items = [
@@ -21,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/usuarios" element={<UserContainer />} />
+        <Route path="/nuevo-usuario" element={<CreateUser />} />
         <Route path="/posts" element={<Posts />} /> 
         <Route path="/albums" element={<Albums />} /> 
       </Routes>
