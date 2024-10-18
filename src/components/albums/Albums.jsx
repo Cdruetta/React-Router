@@ -33,8 +33,8 @@ function Albums() {
 
   return (
     <div>
-      <h2>Álbumes</h2>
-      <ul>
+      <h1>Álbumes</h1>
+      <ul className="albums-list">
         {albums.map((album) => (
           <li key={album.id}>
             <h3>{album.title}</h3>

@@ -39,7 +39,7 @@ function Posts() {
 
   return (
     <div>
-      <h2>Posts</h2>
+      <h1>Posts</h1>
       <ul>
         {posts.map((post) => (
           <li key={post.id}>
